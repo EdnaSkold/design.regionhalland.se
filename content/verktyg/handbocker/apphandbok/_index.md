@@ -17,6 +17,7 @@ Denna sida är just nu under arbete och kommer att uppdateras/ändras. Har du sy
 
 ### Checklista
 [ ] Ska tjänsten användas internt eller externt?
+[ ] Om internt – Används den till beslutsunderlag för någon form av behandling? Används den för att styra andra typer av medicinska enheter?
 [ ] Ska tjänsten ingå i vårt utbud?
 [ ] Ska tjänstens data användas internt av oss?
 [ ] Ska tjänsten kopplas till något verksamhetssystem?
@@ -32,31 +33,41 @@ Denna sida är just nu under arbete och kommer att uppdateras/ändras. Har du sy
 #### Ekonomi
 
 [ ] Medför den några kostnader? Måste vi upphandla?
-[ ] Har en nyttoeffektkalkyl skapats
+[ ] Har en nyttoeffektkalkyl skapats?
 
 #### Användbarhet
 
 [ ] Följer tjänsten ISO 9241-210
+[ ] Vilka plattformar och versioner stödjer tjänsten?
 
 #### Integrationsmöjligheter
 
-[ ] Hur ser möjligheten ut till integration?
+[ ] Integrerar tjänsten till webbsidor eller andra mjukvaror/tjänster?
+[ ] Finns API gränssnitt eller andra integrationsmöjligheter kopplade till tjänsten?
+[ ] Om ja – Beskriv på vilket sätt integrationerna går till?
+[ ] Finns några exportmöjligheter  av data?
+[ ] Om ja – Hur?
+[ ] Hämtas data från andra källor?
 [ ] Följer tjänsten Regionens integrationsstrategi?
-[ ] (Går den att integrera med vår egen app?)
-[ ] (Går det att integrera med önskat verksamhetssystem?)
-[ ] (Hur lagras data?)
-[ ] (Finns API?)
+[ ] Går den att integrera med vår egen app?
+[ ] Går det att integrera med önskat verksamhetssystem?
+
 
 #### Teknik, Stabilitet & Säkerhet
 
-[ ] Följer tjänsten Region Hallands ramverk?
-[ ] Hur ser supporten ut?
+[ ] Följer tjänsten Region Hallands ramverk? 
+[ ] Finns dokumentation om tjänsten  och dess uppbyggnad såsom hur de testar tjänsten, hur de släpper versioner, hur tjänsten är uppbyggd, versionshantering, datalagring, support mm.
 [ ] Är tjänsten patientsäker?
-[ ] Medicinsk produkt som ska följa MDR/IVDR LVFS 2003:11 SCCI0129
+[ ] Medicinsk produkt som ska följa MDR/IVDR LVFS 2003:11 SCCI0129?
+[ ] Medicinsk enhet som ska vara CE märkt?
+
 
 #### Integritet & Sekretess
 [ ] Är tjänsten kopplad till någon form av behandling?
-[ ] GDPR
+[ ] Lagras patientdata eller annan personlig data? Hur lagras data?
+[ ] Följs GDPR?
+[ ] Dataskydd – Behövs en konsekvens bedömning avseende dataskydd (DPIA) genomföras?
+
 
 #### Effekt
 [ ] Ger den utlovad effekt? Finns det någon evidens bakom?
